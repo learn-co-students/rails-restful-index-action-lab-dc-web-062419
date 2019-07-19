@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Index Page</title>
+  
+</head>
+<body>
+    <h1> Student Index Page </h1> 
+
+    <p> 
+    
+        <ul>
+            <%@students.each do |student|%>
+                <li><%=student.first_name%> </li>
+            <%end%>
+    
+    
+        </ul>
+    </p>    
+
+</body>
+</html>
